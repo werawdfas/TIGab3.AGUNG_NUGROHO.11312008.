@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>osCommerce for You - Free osCommerce 2.3.4 template</title>
+<style type="text/css">
+body {
+  font-family: verdana, sans-serif;
+  font-size: 8pt;
+  margin: 0;
+  padding: 0;
+  background: #DDDDDD;
+}
+h1 {
+  font-size: 16pt;
+  color: #00598E;
+}
+h2 {
+  font-size: 13pt;
+  color: #00598E;
+}
+h3 {
+  font-size: 11pt;
+  text-decoration: underline;
+  color: #00598E;
+}
+
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:30px;
+  width: 90em;
+  
+}
+#inner_container {
+  margin: 0.1em;
+  padding: 1em;
+  background-color: #FFF;
+  position: relative;
+  border: 1px solid #00598E;
+}
+#header {
+  background-color: #D90000;
+  width: 100%;
+  height: 8em;
+}
+.error {
+  color: red;
+  padding: 0.5em;
+}
+.success {
+  color: green;
+  padding: 0.5em;
+}
+.messagesuccess {
+  border: 1px solid green;
+  color: green;
+  padding: 1em;
+  background-color: #ffffcc;
+}
+.messageerror {
+  border: 1px solid red;
+  color: red;
+  padding: 1em;
+  background-color: #FFE6E6;
+}
+.spacer {
+  padding: 0.5em;
+}
+#message_header {
+  color: #660000;
+  padding: 0.5em;
+  font-size: 14pt;
+  font-family: verdana;  
+}
+#ofyfooter a { 
+  position: absolute;
+  bottom: 0.3em;
+  padding-left: 2em;
+  text-decoration: none;
+  color: #00598E;
+  margin-bottom:20px;
+}
+.smalltext {
+  font-size: 8pt;
+  font-family: tahoma, verdana;
+}
+#messages_container {
+  background-color: #fff;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  width: 50%;
+}
+.dormant {
+  color: orange;
+  padding: 0.5em;
+  font-style: italic;
+}
+#ofyTitle1 {
+  color: #ffffff;
+  font-size: 22pt;
+}
+#ofyTitle2 {
+  color: #000000;
+  font-size: 22pt;
+}
+
+</style>
+</head>
+<body>
+<div id="container">
+  <div id="header">
+   <span style="padding: 0.5em 0.5em 0.5em 1.5em; position: relative;  top: 1.6em;"><span id="ofyTitle1">Free osCommerce 2.3.3.4 template</span><span id="ofyTitle2"> by</span><span style="color:#fff; font-size: 22pt;"><i> osCommerce for You</i></span></span>
+  </div>
+  <div id="inner_container">
+    <div style="padding: 0.5em;">
+	<div>
+      <h1>Installation</h1>
+      <h3>This template tested ONLY for osCommerce version 2.3.3.4</h3>
+      <p><a href="http://www.oscommerceforyou.hu/free_oscommerce_template014" target="_blank">Demo page</a></p>
+      <p>If you do not already in version 2.3.3.4, please go to osCommerce <a href="http://www.oscommerce.com/solutions/downloads"> download page</a> and download and install the software for your server.</p>
+     </div>
+     <div>
+	   <h3>Save the following files</h3>
+      Firstly BACKUP the following files the website is now working:
+      <p>in catalog</p>
+	  <ul>
+      <li>advanced_search.php</li>
+	  <li>contact_us.php</li>
+      <li>login.php</li>
+	  <li>product_info.php</li>
+	  <li>includes/footer.php</li>
+	  <li>includes/header.php</li>
+	  <li>includes/template_bottom.php</li>
+	  <li>includes/template_top.php</li>
+	  <li>includes/classes/osc_template.php</li>
+	   <li>includes/languages/english.php</li>
+	  </ul>
+<p><span style="font-weight: bold;">If you are not the original english.php or other languages the site works with its own language file, copy it to the end '?>' Tag before:</span><br />
+define('HEADER_TITLE_TOP', 'Home');
+define('HEADER_TITLE_CATALOG', 'Catalog');
+define('HEADER_TITLE_LOGOFF', 'Log Off');
+define('HEADER_TITLE_LOGIN', 'Log In');
+define('BOX_HEADING_SPECIALS', 'Specials');
+define("BOX_HEADING_WHATS_NEW", "What's new");
+define('BOX_HEADING_SEARCH', 'Search in site...');
+define('BOX_HEADING_CURRENCIES', 'Currencies');
+define('BOX_INFORMATION_CONTACT', 'Contact Us');
+define('BOX_SEARCH_ADVANCED_SEARCH', 'Advanced search');
+define('BOX_HEADING_REVIEWS', 'Reviews');
+define('HEADER_TITLE_CART_CONTENTS', 'Cart Contents');
+define('BOX_HEADING_SHOPPING_CART', 'Cart Contents');
+define('BOX_SHOPPING_CART_NO_EMPTY', 'Cart is empty!');
+define('BOX_SHOPPING_CART_EMPTY', ' item');
+define('ENTRY_SEND', 'Send');
+define('NO_ITEM', 'Out of Stock');
+define('TEXT_CURRENT_SORT_ORDER', 'Current sort order');
+define('IMAGE_BUTTON_SORT_ORDER', 'Order');
+define('ENTRY_NAME_ERROR', 'Your Name must contain a minimum of ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' characters.');
+define('ENTRY_SECURIMAGECODE', 'To prevent spam,<br />please enter the: 2+2');
+define('ENTRY_SECURIMAGECODE_ERROR', 'Incorrect: 2+2 = ?');
+define('CLICK_TO_VIEW', 'Click to view product');
+define('TEXT_PASSWORD_FORGOTTEN', 'Password forgotten? Click here.');</p>
+	  
+	   </div>
+	   <div> 
+      <h3>Drop on Top</h3>
+	  <p>Unzip the template files</p>
+      <p>Drop on Top - Upload the template files of the uploads folder maintaining the directory structure.</p>
+       <p><strong>The install is complete ... check out the site's</strong></p>
+<p><span style="color: red; font-weight: bold;">Important: Please do not delete osCommerce and osCommerce for You link in footer !! If this happens, follow the legal measures!</span></p>
+       </div>
+	   <div>
+      <h3>Database</h3>
+      
+<p><span style="color: red; font-weight: bold;">Important:</span> This template not interfere with the database, the current data is not lost</p>
+	    </div>
+	   <div>
+       <h3>Restore</h3>
+      <p>If you do not want to use this template, the first step saved files overwrite the following files:</p>
+   <p>in catalog</p>
+	  <ul>
+       <li>advanced_search.php</li>
+	  <li>contact_us.php</li>
+      <li>login.php</li>
+	  <li>product_info.php</li>
+	  <li>includes/footer.php</li>
+	  <li>includes/header.php</li>
+	  <li>includes/template_bottom.php</li>
+	  <li>includes/template_top.php</li>
+	  <li>includes/classes/osc_template.php</li>
+	   <li>includes/languages/english.php</li>
+	  </ul>
+	  <p>Delete templates folder</p>
+       </div>
+	   <div>
+    <h3>Support</h3>
+     <p><strong>If you want to modify the template, there is no free support!</strong></p>
+       <h3>Contact us if you</h3>
+      <ul>
+      <li>You want a unique website</li>
+	  <li>Special function your active osCommerce webshop</li>
+	  <li>To upgrade to version 2.3.3.4 active site</li>
+	  </ul>
+	   <p>... and anything that osCommerce</p>
+<p><a href="http://www.oscommerceforyou.hu/webaruhaz_keszites_referenciak.html" target="_blank">some reference</a></p>
+	  <p>contact with us: <a href="mailto:info@oscommerceforyou.hu">write email</a></p>
+        </div>
+	   <div>
+     <h3>Donation</h3>
+       <p>If you feel we've helped your site and want to continue to enjoy another free addon, please help us with our operations, make a donation</p>
+      </div>
+    <div style="padding: 0.5em 0.5em 3em 0.5em; font-weight: bold;"><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+</div>   
+    <div id="ofyfooter"><p><a href="http://www.oscommerceforyou.hu" title="osCommerce for you shopping cart development"  target="_blank">More about us site osCommerce for you ...</a></p></div>
+  </div>
+</div>
+
+<div style="text-align:center; margin:30px;">Created by  <a href="http://www.oscommerceforyou.hu" target="_blank"><font color="#D50000"  >O.</font><font color="#7979FF" >F.</font><font color="#007D00" >Y.</font></a>   <a  href="http://users.skynet.be/mgueury/mozilla/" target="_blank">
+  <img   src="http://users.skynet.be/mgueury/mozilla/serial_16.gif"
+  alt="Validated by HTML Validator" height="16" width="39" />
+</a><a href="http://www.oscommerceforyou.hu" target="_blank"> shopping cart development</a></div>
+ </div>
+</body>
+</html>

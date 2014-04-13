@@ -1,0 +1,102 @@
+a:12:{s:8:"encoding";s:5:"UTF-8";s:5:"title";s:18:"osCommerce Add-Ons";s:4:"link";s:25:"http://www.oscommerce.com";s:11:"description";s:29:"osCommerce, Sell With Emotion";s:8:"language";s:2:"en";s:9:"copyright";s:29:"Copyright (c) 2012 osCommerce";s:14:"managingEditor";s:19:"hpdl@oscommerce.com";s:11:"image_title";s:10:"osCommerce";s:9:"image_url";s:53:"http://www.oscommerce.com/images/oscommerce_88x31.gif";s:10:"image_link";s:25:"http://www.oscommerce.com";s:5:"items";a:5:{i:0;a:4:{s:5:"title";s:12:"View Counter";s:4:"link";s:38:"http://addons.oscommerce.com/info/8781";s:11:"description";s:622:"- Added code to prevent duplicate entries in the ignore list.<br />
+- Added a delete button to the block country section to allow deleting blocked entries. <br />
+- Changed database install file so it works with 2.3.3.4.<br />
+- Changed the country blocking module to use curl if fopen won't work on the server.<br />
+- Fixed a problem with the refresh code in 2.3.3.4 shops.<br />
+- Fixed a problem with how the ignore list was created. Some IP's would not return as valid.<br />
+<br />
+This is a full package.<br />
+<br />
+ The support thread is located at:<br />
+ http://forums.oscommerce.com/topic/392949-view-counter/";s:7:"pubDate";s:31:"Sun, 13 Apr 2014 02:58:18 +0200";}i:1;a:4:{s:5:"title";s:41:"jQuery/Ajax Advanced Caching System 2.3.3";s:4:"link";s:38:"http://addons.oscommerce.com/info/9038";s:11:"description";s:1928:"This Add-On will greatly improve page load time for your shop. Instead of reloading the entire page every time the customer clicks on a link, it only requests the essential parts like updating bodyContent, categories and the best sellers boxes.<br />
+<br />
+If you have enabled Cache-Control on your server, then most of the pages will only require 1 request instead of 20-50.<br />
+<br />
+Moreover, the client browser will cache the visited pages with the jQuery .data() method. If a customer press the back/forward button or clicks an already visited link, then the page will load from browser cache and require no requests from the server.<br />
+<br />
+This Add-On will also implement a server side caching system, using either PHP_APC User Caching if available on your server (Recommended) or otherwise fall back to native file caching.<br />
+<br />
+To simplify reading the information stored in the page parse time log (page_parse_time.log), I have included an Admin Widget that uses jQuery flot (http://www.flotcharts.org/), similar to the revenue graph included with osCommerce, to create a line chart with mean value of your server's page load time per hour.<br />
+<br />
+ - Support for and tested on osCommerce 2.3.3.4<br />
+ - Tested successfully on Google Chrome, Firefox and IE9<br />
+ - Compatible with jQuery 2.0.3<br />
+ - Tested successfully with MySQLi<br />
+ - jQuery/Ajax Page Load<br />
+ - jQuery Client Caching<br />
+ - 71 optional CSS 3 Page Transition &amp; Animation Effects<br />
+ - Server Caching<br />
+ - Page Parse Time Admin Widget<br />
+ - PHP_APC Caching Support<br />
+ - Back/Forward Browser Button Support with history.js<br />
+ - SEO friendly - Shop should be unaffected for bots<br />
+<br />
+ - Screenshots included in package<br />
+<br />
+Forum Support Link:<br />
+http://forums.oscommerce.com/topic/394785-jqueryajax-advanced-caching-system-233/<br />
+<br />
+Demo:<br />
+http://jholmster.com";s:7:"pubDate";s:31:"Sat, 12 Apr 2014 10:53:12 +0200";}i:2;a:4:{s:5:"title";s:13:"Zoho LiveDesk";s:4:"link";s:38:"http://addons.oscommerce.com/info/9037";s:11:"description";s:1539:"This module adds the Zoho LiveDesk chat widget to your site.<br />
+<br />
+With Zoho LiveDesk you can instantly connect to your customers and deliver instant support<br />
+<br />
+<br />
+Why LiveDesk?<br />
+<br />
+In LiveDesk, you can customize the chat window color, text, logo, icons, input fields (Name, Email, contact number) and many more.<br />
+<br />
+In the era of real-time communication and instant-everything, customers expect a prompt answer to their questions. With its neat web interface, Zoho LiveDesk allows agents to pick customer chat requests and help them to solve their problems instantly thorugh LiveSupport.<br />
+<br />
+You can easily create, configure and customize your LiveDesk within minutes, Embed the customizable chat widgets into your website and provide a personalized Support experience to your customers.<br />
+<br />
+<br />
+Our Features<br />
+<br />
+Chat Embed Customization<br />
+Support Customers from your Mobile Devices<br />
+Gaze into the future and see what your customers type as they type it and magically make custom solutions appear before they ever hit submit<br />
+Zoho LiveDesk Integration with Zoho CRM and Zoho Support<br />
+Powerful Reporting<br />
+Advanced organizational features, which includes departments.<br />
+Chat transfer and Monitor<br />
+Categorized Canned Messages<br />
+IP Blocking<br />
+Agent roles<br />
+Business hour<br />
+<br />
+Download Zoho LiveDesk plugin now and sign up here for a free account here: https://livedesk.zoho.com/register.sas?source=osCommerce.description";s:7:"pubDate";s:31:"Fri, 11 Apr 2014 16:37:56 +0200";}i:3;a:4:{s:5:"title";s:26:"SEO Header Tags - RELOADED";s:4:"link";s:38:"http://addons.oscommerce.com/info/8864";s:11:"description";s:190:"THIS IS A FULL FILESET, INCLUDING SQL. IGNORE ALL PREVIOUS DOWNLOADS.<br />
+<br />
+2014 04 10<br />
+----------<br />
+- addition of bootstrap enabled files<br />
+- add missing language define";s:7:"pubDate";s:31:"Fri, 11 Apr 2014 16:29:28 +0200";}i:4;a:4:{s:5:"title";s:14:"PayPal México";s:4:"link";s:38:"http://addons.oscommerce.com/info/8964";s:11:"description";s:3288:"PayPal es la forma m&aacute;s f&aacute;cil, r&aacute;pida y segura de enviar y recibir pagos en l&iacute;nea. Los comercios en M&eacute;xico que habilitan PayPal como forma de pago pueden aceptar pagos en l&iacute;nea con las principales tarjetas de cr&eacute;dito y d&eacute;bito y con el saldo de las cuentas PayPal. Este m&oacute;dulo, dise&ntilde;ado por el equipo de PayPal M&eacute;xico, est&aacute; optimizado especialmente para comercios mexicanos y cuenta con los ajustes necesarios para comunicar de la mejor manera las diferentes alternativas de pago con PayPal y ayudar a maximizar la conversi&oacute;n. Tambi&eacute;n pueden ofrecer a sus clientes pagos en mensualidades. La integraci&oacute;n es sencilla, sin cargos por apertura ni comisiones mensuales.<br />
+<br />
+Los comercios que integran las soluciones PayPal cuentan con una serie de funcionalidades que les ayudar&aacute;n a impulsar sus ventas de comercio electr&oacute;nico.<br />
+<br />
+<br />
+Funcionalidades<br />
+<br />
+Aceptaci&oacute;n de pagos con tarjetas: Con PayPal, los comercios pueden aceptar pagos en l&iacute;nea con tarjetas de cr&eacute;dito VISA, MasterCard y American Express y con tarjetas de d&eacute;bito emitidas por BBVA Bancomer, Banamex, Banorte, HSBC y Santander.<br />
+<br />
+Planes de mensualidades: PayPal brinda a los comercios la opci&oacute;n de ofrecer a sus clientes planes de pago en mensualidades desde 3, 6, 9 y hasta 12 meses con Visa y MasterCard. Para ofrecer mensualidades, primero debe de estar activada la opci&oacute;n dentro de tu cuenta PayPal. M&aacute;s informaci&oacute;n (https://www.paypal.com/mx/webapps/mpp/installments)<br />
+<br />
+Seguridad y Protecci&oacute;n: Los comercios que integran las soluciones de PayPal est&aacute;n protegidos por modelos de prevenci&oacute;n de fraudes, l&iacute;deres en la industria. Adem&aacute;s, la Pol&iacute;tica de Protecci&oacute;n al Vendedor de PayPal los protege contra reclamaciones del comprador y devoluciones de cargo (aplican ciertos requisitos)<br />
+<br />
+Alcance internacional: PayPal cuenta con 137 millones de usuarios en 193 pa&iacute;ses y permite hacer transacciones en 26 divisas, incluyendo el d&oacute;lar y el euro.<br />
+<br />
+<br />
+Soluci&oacute;n l&iacute;der<br />
+<br />
+Pagos Expr&eacute;s: Es una de las soluciones l&iacute;deres de PayPal, la cual proporciona una experiencia de pago r&aacute;pida, f&aacute;cil y confiable. Entre sus caracter&iacute;sticas destacan:<br />
+<br />
+* Ha sido integrada previamente por m&aacute;s de 100 carritos de compra preferidos a nivel global.<br />
+* Puede integrarse f&aacute;cilmente a trav&eacute;s de las API de PayPal.<br />
+* Ha sido optimizada para pagos m&oacute;viles; puede integrarla f&aacute;cilmente en sitios m&oacute;viles y en apps.<br />
+* Facilita la venta en l&iacute;nea de contenido digital.<br />
+* Ofrece herramientas para generar reportes en l&iacute;nea y llevar mejor el control de las ventas.<br />
+* Cuenta con medios de validaci&oacute;n avanzados para brindar seguridad al comprador y al comercio.<br />
+* Se integra a la perfecci&oacute;n con los sistemas de back-office y back-end a la perfecci&oacute;n.<br />
+<br />
+<br />
+Nota: PayPal M&eacute;xico es compatible con las versiones 2.3, 2.3.1 y 2.3.2 de osCommerce.";s:7:"pubDate";s:31:"Wed, 22 Jan 2014 17:15:42 +0100";}}s:11:"items_count";i:5;}
